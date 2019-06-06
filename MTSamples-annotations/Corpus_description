@@ -1,0 +1,31 @@
+We downloaded and extracted documents from MTSamples (www.mtsamples.com), a collection of Medical Transcription Sample reports for multiple clinical specialties (where the same document can belong to different groups), created for educational purposes and for working transcriptionists.
+
+In the MTSamples resource, there is no availability of document creation times (DCTs).
+Most documents follow a semi-structured format, including different section headings/textual content depending on the specific clinical specialty.
+
+We selected the following specialties for manual annotation and analysis:
+* discharge summaries (108 documents)
+* psychiatry-psychology (53 documents)
+* paediatrics (70 documents)
+* emergency (75 documents)
+
+The number of unique documents is 286.
+
+Each folder includes the original documents (corpus) and the manual annotations (all_annotations).
+
+Manual annotations are organised in the following columns (tab separated):
+
+['doc', 'overlap', 'text1', 'text2', 'type1', 'type2', 'val1', 'val2', 'start1', 'end1', 'start2', 'end2', 'sentence']
+* doc: the document name
+* overlap: used to measure the inter-annotator agreement for span overlap (TP: true positive, FP: false positive, FN: false negative)
+* text1: span annotated by annotator 1
+* text2: span annotated by annotator 2
+* type1: type annotated by annotator 1
+* type2: type annotated by annotator 2
+* val1: value annotated by annotator 1
+* val2: value annotated by annotator 2
+* start1: start offset for annotator 1
+* end1: end offset for annotator 1
+* start2: start offset for annotator 2
+* end2: end offset for annotator 2
+* sentence: text surrounding the annotation
