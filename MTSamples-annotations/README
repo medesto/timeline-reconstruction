@@ -20,7 +20,7 @@ The number of unique documents is 286.
 ##### Manual Annotations #####
 
 All documents were double-annotated for time expressions, as described in the BIONLP 2019 paper.
-Annotation guidelines are available as a PDF file ("TIMEX_normalisation_MTSamples").
+Annotation guidelines are available as a PDF file ("Annotation_guidelines_time_expressions_MTSamples").
 
 Each folder (discharge-summaries, psychiatry-psychology, pediatrics, emergency) includes:
 * textual documents (corpus.zip)
