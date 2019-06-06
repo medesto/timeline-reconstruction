@@ -1,7 +1,11 @@
-We downloaded and extracted documents from MTSamples (www.mtsamples.com), a collection of Medical Transcription Sample reports for multiple clinical specialties (where the same document can belong to different groups), created for educational purposes and for working transcriptionists.
+We downloaded and extracted documents from MTSamples (www.mtsamples.com),
+a collection of Medical Transcription Sample reports for multiple clinical specialties
+(where the same document can belong to different groups),
+created for educational purposes and for working transcriptionists.
 
 In the MTSamples resource, there is no availability of document creation times (DCTs).
-Most documents follow a semi-structured format, including different section headings/textual content depending on the specific clinical specialty.
+Most documents follow a semi-structured format,
+including different section headings/textual content depending on the specific clinical specialty.
 
 We selected the following specialties for manual annotation and analysis:
 * discharge summaries (108 documents)
