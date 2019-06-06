@@ -42,3 +42,7 @@ For each annotation, the following columns are available (tab separated):
 * start2: start offset identified by annotator 2
 * end2: end offset identified by annotator 2
 * sentence: text surrounding the annotation
+
+
+##### Reference #####
+Viani N, Tissot H, Bernardino A, Velupillai S. Annotating Temporal Information in Clinical Notes for Timeline Reconstruction: Towards the Definition of Calendar Expressions. Accepted at BIONLP 2019.
